@@ -1,0 +1,19 @@
+spec_version: v1
+kind: external 
+name: risk_assessment_agent
+title: Risk Assessment Agent
+provider: wx.ai                  # the provider will always be wx.ai
+description: > 
+ An agent running in a custom langchain container capable of communicating with external news sources to combat disinformation.
+tags:
+  - langgraph
+  - wx.ai
+api_url: "<API URL PROVIDED BY INSTRUCTORS>"  # this is the API URL for wx.ai
+auth_scheme: API_KEY             # this will always be API_KEY         
+auth_config:
+  token: "<API KEY PROVIDED BY INSTRUCTORS>"          # this is the API key for wx.ai  
+chat_params:
+  stream: true                   # should the external agent be invoked using using SSE streaming or as a rest call 
+config:
+  hidden: false                  # Hide this collaborator agent from the ui
+  enable_cot: true               # Does the external agent return all internal steps and tool calls

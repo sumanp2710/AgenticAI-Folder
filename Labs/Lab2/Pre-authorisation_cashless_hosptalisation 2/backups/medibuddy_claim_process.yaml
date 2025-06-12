@@ -1,0 +1,6 @@
+spec_version: v1
+kind: knowledge_base 
+name: medibuddy_claim_process
+description: This knowledge addresses the claim process for Medibuddy insurance.
+documents:
+  - documents/medibuddy_guidelines.pdf

@@ -1,0 +1,6 @@
+spec_version: v1
+kind: knowledge_base 
+name: goldman_sachs_reports
+description: This knowledge addresses the goldman sachs 2025 outlook.
+documents:
+  - 2025Outlook.pdf

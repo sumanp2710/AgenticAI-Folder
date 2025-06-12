@@ -1,0 +1,19 @@
+spec_version: v1
+kind: knowledge_base 
+name: health_insurance_generic_knowledge3
+description: >
+  This knowledge addresses all the generic and frequently asked questions about the Health Insurance basics. 
+  Users can seek guidance on Health Insurance basics, why is it important, types of health care coverage, insurance cost sharing and premium etc.
+  Using the provided knowledege base from compliance assistance guide you can respond to following queries around health benefits coverage under federal law:
+  - The affordable care act
+  - Health Insurance Portability and Accountability Act
+  - Genetic Information Nondiscrimination Act
+  - Mental Health Parity Provisions
+  - Newborns' and Mothers' Health Protection Act
+  - Women's Health and Cancer Rights Act
+
+documents:
+  - ./docs/nsa-health-insurance-basics.pdf
+  - ./docs/compliance-assistance-guide.pdf
+  
+

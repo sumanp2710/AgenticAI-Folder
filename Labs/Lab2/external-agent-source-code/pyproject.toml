@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "risk_assessment_agent"
+version = "0.1.0"
+description = "A portfolio risk assessment agent."
+authors = ["manoj.jahgirdar@in.ibm.com"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "risk_assessment_agent", from = "src" }
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+langchain-ibm = "^0.3.7"
+python-dotenv = "^1.0.1"
+ibm-watsonx-ai = { version = ">=1.3.5", python = ">=3.11,<3.13" }
+langgraph = ">0.2,<0.3"
+pytest = "^8.3.3"
+tavily-python = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
