@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://hr-skills-app.1vfqkxc8legl.us-south.codeengine.appdomain.cloud",
+      "url": "https://hr-skills-app.1w876ab5b12u.us-south.codeengine.appdomain.cloud/",
       "description": "Production server"
     }
   ],
