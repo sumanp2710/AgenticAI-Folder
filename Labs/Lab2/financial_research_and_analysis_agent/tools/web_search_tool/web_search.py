@@ -2,7 +2,7 @@ from ibm_watsonx_orchestrate.agent_builder.tools import tool, ToolPermission
 from ibm_watsonx_orchestrate.run import connections
 from tavily import TavilyClient
 
-USE_CACHED_RESPONSES = False
+USE_CACHED_RESPONSES = True
 
 @tool(name="web_search", description="Search the web to get market and financial insights.", permission=ToolPermission.READ_ONLY)
 def web_search(query: str) -> dict:
