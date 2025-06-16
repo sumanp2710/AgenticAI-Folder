@@ -1,0 +1,8 @@
+# Core packages
+pandas
+
+# Forecasting
+prophet  # Use 'fbprophet' if needed for compatibility
+
+# Date utilities
+python-dateutil
